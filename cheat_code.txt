@@ -1,0 +1,21 @@
+geth --datadir D:\VSCode\node1 --nodiscover console
+
+geth --datadir D:\VSCode\node2 --nodiscover --ipcdisable --port 30304 console
+
+geth --datadir D:\VSCode\node3 --nodiscover --ipcdisable --port 30305 console
+
+Hiện enode
+admin.nodeInfo.enode
+
+admin.addPeer(string enode) : Kết nối với node khác = enode của node đấy
+
+admin.peers -> trả về list cách peer đã kết nối
+
+
+miner.start(int n) -> bắt đầu đào với số thread = m
+
+geth account list -> hiện ra danh sách account
+
+
+
+
