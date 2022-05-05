@@ -1,0 +1,11 @@
+admin.addPeer()
+admin.addPeer("enode://b317a30b3e225db75613ddf64f8f63dd93527ff946e06239ce8338fa08a2f7631beb95f464c50c174bcf36571ef5b7481f7d67d61a0c3b401cc5598fc46c9d8e@127.0.0.1:30304?discport=0")
+admin.addPeer("enode://3fca475e9d0a4628408c810ae0d72193b3146b3e39ddcb64e593bf018db67f05ca930421e056c918a6ca366264b487eafd2c9c5581900f21e8da214478214eb5@118.69.187.7:30303")
+admin.nodeInfo.enode
+personal
+admin.nodeInfo.enode
+miner.start(1)
+mine.stop()
+miner.stop()
+eth.blockNumber
+miner.start(2)
