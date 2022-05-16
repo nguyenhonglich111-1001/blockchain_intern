@@ -2,3 +2,9 @@ Các loại event listenter khác phải dùng trong local host hoặc mainnet
 Hiện tại trong testnet chỉ dùng được get past event;
 
 Dùng Function selector
+lấy 4 byte đầu của function = cách dùng : bytes4(keccak256(bytes("transferFrom(address,address,uint256)")));
+Xong rồi encode : bytes memory data = abi.encodeWithSelector(transferFromSelector,_from,_to,_value);
+và call function thông qua abi: (bool success, bytes memory returnData) = address(_contract).call(data);
+
+=> Giải quyết listener event = cách deploy lên testnet và lắng nghe thử.
+=> Đọc multiSign Wallet 
